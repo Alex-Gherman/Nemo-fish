@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: black;
+}
+#container {
+  width: 100vw;
+  height: 100%;
+  /* border: 4px solid black; */
+}
+#canvas1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  border: 4px solid black;
+  background: linear-gradient(to bottom, lightblue, darkblue, black);
+}
+/* #canvas2 {
+  width: 100vw;
+  height: 100%;
+  border: 4px solid black;
+  /* background: black; */
+} */
